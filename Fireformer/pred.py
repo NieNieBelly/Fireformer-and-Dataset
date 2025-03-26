@@ -6,9 +6,6 @@ import netCDF4 as nc
 import numpy as np
 import time
 from myNet.Fireformer import Fireformer
-from compareNet.SMCNN import SMCNN
-from compareNet.EfficientNet import EfficientNetV2
-from compareNet.STSRNN import STSRNN
 from utils.sequenceDataset import TestDataSet, TestDataSet1
 from utils.makeSequenceData import split37File
 from torch.utils.data import DataLoader
